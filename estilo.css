@@ -1,0 +1,221 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+body{background: #ccc;}
+
+/*CABECERA*/
+
+header{max-width: 1000px;
+min-height: 130px;
+background: #fbfbfb00;
+margin: 0 auto;
+border-radius: 20px 20px 0 0;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,e1e1e1+37,f1f1f1+50,f6f6f6+69 */
+background: linear-gradient(to bottom,  rgb(83, 2, 77) 0%,rgb(159, 10, 164) 37%,rgb(226, 132, 209) 50%,rgba(246,246,246,1) 69%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#logo{
+	max-width: 20px;
+	float: left;
+	animation: 1s entradalogo 1;
+	
+}
+
+
+#logo img{  
+height: 120px;
+width: 200PX;
+
+}
+
+#logo img:hover{
+	background: #760387b3;
+}
+
+ /*CABECERA*/
+
+/*MENU-HORIZONTAL*/
+
+#menu-h{
+max-width: 1000px;	
+min-height: 50px;
+background: #7f0592b3;
+margin: 0 auto;
+}
+
+#menu-h ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+
+}
+
+#menu-h a{
+	color: #fff;
+	display: block;
+	padding: 20px;
+	text-decoration: none;
+	background: #9319a6b3;
+}
+
+#menu-h a:hover{
+
+	/* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#b8e1fc+0,a9d2f3+10,90bae4+25,90bcea+41,a2daf5+46,90bff0+50,6ba8e5+100 */
+background: linear-gradient(to bottom,  #b8e1fc 0%,#a9d2f3 10%,#90bae4 25%,#90bcea 41%,#a2daf5 46%,#90bff0 50%,#6ba8e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#menu-h ul ul{	
+	display: none;
+	position: absolute;
+}
+ 
+#menu-h ul li:hover ul{
+	display: block;
+}
+ 
+
+/*MENU-HORIZONTAL*/
+
+#banner{
+max-width: 1000px;	
+min-height: 250px;
+background: #fff;
+margin: 0 auto;	
+}
+
+#banner img{
+min-width: 1000px;
+min-height: 150px;
+margin: 0 auto;
+
+}
+
+#contenedor{
+max-width: 1000px;	
+min-height: 500px;
+background: #fff;
+margin: 0 auto;	
+}
+
+/*MENU-VERTICAL*/
+
+
+
+
+
+
+#menu-v{
+width: 300px;	
+min-height: 600px;
+background:white ;
+float: left;
+}
+
+#menu-v ul{
+	list-style: none;
+	padding: 7px;
+	
+}
+
+#menu-v a img {
+	height: 20px;
+
+
+}
+
+#menu-v a{
+	display: block;
+	color: white;
+	background: #000;
+	padding: 10px;
+	text-decoration: none;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	font-family: arial;
+
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f85032+33,e73827+42,f16f5c+50,f6290c+51 */
+background: linear-gradient(to bottom,  rgb(64, 1, 85) 33%,rgb(55, 2, 84) 42%,rgb(73, 3, 97) 50%,rgb(81, 1, 101) 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+#menu-v a:hover{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#efc5ca+0,ba2737+37,ba2737+37,d24b5a+50,f18e99+100 */
+background: linear-gradient(to bottom,  rgb(68, 2, 90) 0%,rgba(80, 2, 83, 0) 37%,rgb(85, 3, 84) 37%,rgb(73, 3, 67) 50%,rgb(85, 5, 68) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+}
+
+
+/*MENU-VERTICAL*/
+
+
+
+/*CONTENIDO*/
+
+#contenido{
+width: 700px;	
+min-height: 600px;
+background: #fff;
+float: right;
+padding: 15px;
+box-sizing: border-box;
+}
+
+#contenido h2{
+	text-align: center;
+	font-family: arial;
+	margin-bottom: 15px;
+}
+
+#contenido img{
+	width: 260px;
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+#contenido p{
+	margin-bottom: 10px;
+	font-family: arial;
+	font-size: 18px;
+	text-align: justify;
+}
+
+/*CONTENIDO*/
+
+
+/*PIE DE PAGINA*/
+
+footer{
+max-width: 1000px;	
+padding: 20px;
+background: #000;
+margin: 0 auto;
+border-radius: 0 0 20px 20px;
+color: white;
+font-family: arial;
+text-align: center;
+box-sizing: border-box;
+}
+
+/*PIE DE PAGINA*/
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+	0% {
+		transform: translatey(-200px);
+	}
+}
+
+#contenido img{
+
+	width: 150px;
+}
